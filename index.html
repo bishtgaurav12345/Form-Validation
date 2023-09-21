@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/47c611b96c.js" defer></script>
+
+</head>
+<body>
+    <div class="conatiner ">
+        <div class="content">
+            <div class="logo">
+                <img src="Images/logo.svg" alt="">
+            </div>
+            <div class="img"></div>
+            <div class="text">
+                Start for free & get <br/> offers today !
+            </div>
+        </div>
+        <form action="" id="form" >
+            <div class="social">
+                <div class="title">Get started</div>
+                <div class="question">
+                    Already have an account?<br/>
+                    <span class="signIn">Sign in</span>
+                </div>
+                <div class="btn">
+                    <div class="btn1">
+                        <img width="48" height="48" src="https://img.icons8.com/color/48/google-logo.png" alt="google-logo"/>Sign up
+                    </div>
+                    <div class="btn2">
+                        <img width="48" height="48" src="https://img.icons8.com/color/48/facebook.png" alt="facebook"/>Sign up
+                    </div>
+                </div>
+                <div class="or">Or</div>
+            </div>
+
+            <div class="">
+                <label for="userName">userName</label>
+                <i class="fa-solid fa-user"></i>
+                <input type="text" name="userName" id="userName" placeholder="abc">
+                <i class="fa-solid fa-circle-xmark failure-icon"></i>
+                <i class="fa-solid fa-check success-icon"></i>
+                <div class="error"></div>
+            </div>
+            <div class="">
+                <label for="email"> Email</label>
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" name="email" id="Email"  placeholder="abc@gmail.com">
+                <i class="fa-solid fa-circle-xmark failure-icon"></i>
+                <i class="fa-solid fa-check success-icon"></i>
+                <div class="error"></div>
+            </div>
+            <div class="">
+                <label for="Password"> Password</label>
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" name="Password" id="Password"  placeholder="!@#fdasf">
+                <i class="fa-solid fa-circle-xmark failure-icon"></i>
+                <i class="fa-solid fa-check success-icon"></i>
+                <div class="error"></div>
+            </div> 
+
+            <button type="submit" id="submit">Submit</button>
+       </form>
+    </div>
+    
+</body>
+<script  src="js.js"></script>
+</html>
